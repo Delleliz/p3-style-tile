@@ -14,7 +14,9 @@ section {
 
 .color-2,
 .color-3,
-.pattern-1,
+.pattern-1 {
+	background: url("../img/img.png");
+}
 .pattern-2,
 .pattern-3 {
 	border: 1px solid #000;

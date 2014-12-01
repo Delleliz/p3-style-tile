@@ -1,3 +1,5 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
@@ -9,21 +11,70 @@ section {
 }
 
 .color-1 {
-	background: #FF9999;
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: #f35858; 
 }
-
-.color-2,
-.color-3,
+.color-2, {
+	border: 1px solid #000;
+	
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: #fff; 
+}
+.color-3, {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: #f35858; 
+}
 .pattern-1 {
-	background: url("../img/img.png");
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: #f35858; 
 }
-.pattern-2,
+.pattern-2, {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: #f35858; 
+}
 .pattern-3 {
 	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
+}
+
+section {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 15pt;
+	line-height: 1.75em;
+	color: #52575c;
+}
+
+h1,h2 {
+	font-weight: 300;
+	color: #52575c;
+}
+
+h3 { 
+	font-weight: 300;
+	color: #f35858 ;
+
 }
 
 

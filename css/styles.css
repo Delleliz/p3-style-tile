@@ -63,6 +63,14 @@ h3 {
 
 }
 
+a:link {
+	color: #52575c ;
+}
+
+a:visited {
+	color: #f35858 ;
+}
+
 
 /* Show Grid */
 .showgrid {
